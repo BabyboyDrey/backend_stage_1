@@ -17,8 +17,9 @@ app.get('/api', (req, res) => {
     current_day: moment().format('dddd'),
     utc_time: moment().utc().format(),
     track,
-    github_file_url: 'https://github.com/username/repo/blob/main/file_name.ext', // Replace with your GitHub URL
-    github_repo_url: 'https://github.com/username/repo', // Replace with your GitHub URL
+    github_file_url:
+      'https://github.com/BabyboyDrey/backend_stage_1.git/backend_stage_1/index.js',
+    github_repo_url: 'https://github.com/BabyboyDrey/backend_stage_1.git',
     status_code: 200
   }
 
